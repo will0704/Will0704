@@ -1,0 +1,134 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: system-ui;
+    scroll-behavior: smooth;
+}
+
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+} 
+
+.brand {
+    color: #98dc96;
+    margin-left: 0.3in;
+    font-size: 1.8rem;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    margin-right: 0.5in;
+    font-family: system-ui;
+}
+
+.menu a {
+    color: #98dc96;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #50d890;
+}
+
+.aboutme {
+    margin-top: 0.2in;
+    margin-left: 1in;
+    margin-right: 1in;  
+    margin-bottom: 0.1in;
+}
+
+.aboutme h6 {
+    font-size: 1em;
+    color: #bbbbbb
+}
+
+.aboutme p {
+    margin-top: 0.1in;
+}
+
+.projects {
+    margin-top: 0.7in;
+    margin-left: 1in;
+    margin-right: 1in;  
+    margin-bottom: 0.1in;
+
+}
+
+.projects h6 {
+    font-size: 1em;
+    color: #bbbbbb;
+}
+
+.card-container {
+    margin-top: 0.2in;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 1rem);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #98dc96;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.contacts {
+    background-color: black;
+            color: white;
+            padding: 1rem;
+            width: 100%;
+    margin-top: 0.7in;
+    margin-left: 0n;
+    margin-right: 0n;  
+    margin-bottom: 0n;
+
+}
+
+.contacts h6 {
+    font-size: 1em;
+    color: #bbbbbb;
+    margin-left: 0.3in;
+}
+
+.contacts p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 0.1in;
+    margin-left: 0.3in;
+    margin-bottom: 0.2in;
+}
